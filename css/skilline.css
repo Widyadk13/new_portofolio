@@ -8,6 +8,25 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.card {
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+  }
+
+  .card img {
+    transition: transform 0.7s;
+  }
+
+  .card:hover img {
+    transform: scale(1.6);
+    border: #2F327D;
+  }
+
 .bg-yellow-500 {
     background-color: #F48C06;
 }
